@@ -231,6 +231,34 @@
 &lt;li&gt;Wait a few minutes after pushing for GitHub Actions to complete the deployment&lt;/li&gt;
 &lt;li&gt;Check the Actions tab in your GitHub repository for deployment status&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;check-document-for-stack-theme&#34;&gt;Check Document for stack theme
+&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/guide/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stack.jimmycai.com/guide/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>new post</title>
+        <link>http://localhost:1313/p/new-post/</link>
+        <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/new-post/</guid>
+        <description>&lt;img src="http://localhost:1313/cover.jpg" alt="Featured image of post new post" /&gt;&lt;h1 id=&#34;hugogithub-action-deploy-your-own-blog&#34;&gt;HUGO+GitHub Action deploy your own Blog
+&lt;/h1&gt;&lt;h1 id=&#34;prerequisites&#34;&gt;Prerequisites
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Install Hugo (Extended version) in macos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;brew&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Git installed&lt;/li&gt;
+&lt;li&gt;GitHub account&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         
