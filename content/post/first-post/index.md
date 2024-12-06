@@ -155,3 +155,7 @@ Your blog should now be accessible at [https://yourusername.github.io/](https://
 - Make sure your repository name follows the format: [username.github.io](http://username.github.io)
 - Wait a few minutes after pushing for GitHub Actions to complete the deployment
 - Check the Actions tab in your GitHub repository for deployment status
+
+# Check Document for stack theme
+
+[https://stack.jimmycai.com/guide/](https://stack.jimmycai.com/guide/)
