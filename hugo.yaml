@@ -205,11 +205,11 @@ menu:
         url: https://github.com/CaiJimmy/hugo-theme-stack
         params:
             icon: brand-github
-      - identifier: linkedin
-        name: linkedin
-        url: https://www.linkedin.com/in/zzyliu74/
-        params:
-            icon: brand-github
+    #   - identifier: linkedin
+    #     name: linkedin
+    #     url: https://www.linkedin.com/in/zzyliu74/
+    #     params:
+    #         icon: brand-github
 
 related:
     includeNewer: true
