@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Syntax on Programming Notes</title>
+        <link>http://localhost:1313/categories/syntax/</link>
+        <description>Recent content in Syntax on Programming Notes</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Yuhao</copyright>
+        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/syntax/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>redis test</title>
+        <link>http://localhost:1313/p/redis-test/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/redis-test/</guid>
+        <description>&lt;h1 id=&#34;dotnet&#34;&gt;Dotnet
+&lt;/h1&gt;&lt;h1 id=&#34;async-await&#34;&gt;async await:
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%201.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;whenall,cancletoken&lt;/p&gt;
+&lt;p&gt;接口不要声明 async&lt;/p&gt;
+&lt;h1 id=&#34;linq-扩展方法实现了-i&#34;&gt;LINQ 扩展方法(实现了 I)
+&lt;/h1&gt;&lt;h1 id=&#34;依赖注入&#34;&gt;依赖注入
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%202.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;服务:对象要的框架&lt;/p&gt;
+&lt;p&gt;服务容器:管理注册的服务
+查询服务:查询对象以及关联对象&lt;/p&gt;
+&lt;p&gt;对象的生命周期:
+瞬态: 获取一次 NEW 一个新的对象
+范围:在这个范围内用的是同一个对象
+单例:无论谁获取这个服务都是这个对象&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.so/1312db5da48880468938ed2b99e99df3?pvs=21&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%203.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;iqueryable-和-ienumerable-的区别&#34;&gt;IQueryable 和 IEnumerable 的区别
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%204.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;IENUMBERABLE is executed in the local memory, the other one is complied into the SQL script and executed in the databased server.&lt;/p&gt;
+&lt;p&gt;so when the number of the query is large, we need to use the Iqueryable because the server tend to have better performance than the local machine&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%205.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;how-to-traverse-the-iqueryable-async&#34;&gt;how to traverse the IQUERYABLE async
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%206.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;upsettingjson配置文件&#34;&gt;upsetting.json,配置文件
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%207.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;function reload 之后进行热重载&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%208.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用-configuration-映射配置类&#34;&gt;使用 configuration 映射配置类
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image%209.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;环境变量的优先级&#34;&gt;环境变量的优先级
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Command-line arguments&lt;/strong&gt; &amp;gt; &lt;strong&gt;Environment variables&lt;/strong&gt; &amp;gt; &lt;strong&gt;User secrets&lt;/strong&gt; &amp;gt; &lt;strong&gt;Configuration files&lt;/strong&gt; (e.g., appsettings.json) &amp;gt; &lt;strong&gt;Default values&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A brief history of GC in .NET
+The genesis of the garbage collector (GC) in .NET dates back to 1990 when Microsoft was developing its version of JavaScript, named JScript. Initially developed by a four-person team, one member, Patrick Dussud, who is recognized as the father of .NET’s garbage collector, developed a Conservative GC within the team. At that time, the CLR did not exist, and Patrick was working on the JVM.&lt;/p&gt;
+&lt;p&gt;Initially, Microsoft aimed to implement its version of the JVM instead of creating something akin to the current .NET runtime. However, once the CLR team was formed, they realized that the JVM imposed certain limitations on them, prompting the creation of their own environment.&lt;/p&gt;
+&lt;p&gt;With this decision, Patrick redeveloped a new GC from scratch, targeting the “best GC possible” concept, using LISP, his language of expertise. He then wrote a transpiler from LISP to C++ to make the code compatible with Microsoft’s runtime. (The birth of the CLR)&lt;/p&gt;
+&lt;p&gt;The current codes for the garbage collector used in .NET can be accessed from this file in Microsoft’s runtime repository. Today, Maoni Stephens, the technical lead of Microsoft’s GC team, who has written and presented many conferences and articles on various aspects of GC implementation, can be followed on her blog.&lt;/p&gt;
+&lt;p&gt;Currently, .NET is equipped with three modes (flavors) of GC, each optimized for different types of applications. Let’s dive into each of these:&lt;/p&gt;
+&lt;p&gt;Server GC
+Optimized for server-side applications like ASP.NET Core and WCF, this variant of GC is designed for environments with high request rates and frequent object allocations and deallocations.&lt;/p&gt;
+&lt;p&gt;Server GC operates with a separate heap and a GC thread for each processor. This means that if you have an eight-core processor, there will be an independent heap and GC thread on each core during garbage collection.&lt;/p&gt;
+&lt;p&gt;This approach ensures the collection process is as swift as possible without additional pauses, preventing the application from “freezing”.&lt;/p&gt;
+&lt;p&gt;Server GC is only executable on multi-core processors. Attempting to run a server-side application in Server GC mode on a single-core processor will automatically result in a fallback to Non-Concurrent Workstation GC.&lt;/p&gt;
+&lt;p&gt;To use Server GC in non-server-side applications (like WPF, Windows Services, etc.) on multi-core processors, add the following settings to your app.config or web.config:&lt;/p&gt;
+&lt;p&gt;A brief history of GC in .NET
+The genesis of the garbage collector (GC) in .NET dates back to 1990 when Microsoft was developing its version of JavaScript, named JScript. Initially developed by a four-person team, one member, Patrick Dussud, who is recognized as the father of .NET’s garbage collector, developed a Conservative GC within the team. At that time, the CLR did not exist, and Patrick was working on the JVM.&lt;/p&gt;
+&lt;p&gt;Initially, Microsoft aimed to implement its version of the JVM instead of creating something akin to the current .NET runtime. However, once the CLR team was formed, they realized that the JVM imposed certain limitations on them, prompting the creation of their own environment.&lt;/p&gt;
+&lt;p&gt;With this decision, Patrick redeveloped a new GC from scratch, targeting the “best GC possible” concept, using LISP, his language of expertise. He then wrote a transpiler from LISP to C++ to make the code compatible with Microsoft’s runtime. (The birth of the CLR)&lt;/p&gt;
+&lt;p&gt;The current codes for the garbage collector used in .NET can be accessed from this file in Microsoft’s runtime repository. Today, Maoni Stephens, the technical lead of Microsoft’s GC team, who has written and presented many conferences and articles on various aspects of GC implementation, can be followed on her blog.&lt;/p&gt;
+&lt;p&gt;Currently, .NET is equipped with three modes (flavors) of GC, each optimized for different types of applications. Let’s dive into each of these:&lt;/p&gt;
+&lt;p&gt;Server GC
+Optimized for server-side applications like ASP.NET Core and WCF, this variant of GC is designed for environments with high request rates and frequent object allocations and deallocations.&lt;/p&gt;
+&lt;p&gt;Server GC operates with a separate heap and a GC thread for each processor. This means that if you have an eight-core processor, there will be an independent heap and GC thread on each core during garbage collection.&lt;/p&gt;
+&lt;p&gt;This approach ensures the collection process is as swift as possible without additional pauses, preventing the application from “freezing”.&lt;/p&gt;
+&lt;p&gt;Server GC is only executable on multi-core processors. Attempting to run a server-side application in Server GC mode on a single-core processor will automatically result in a fallback to Non-Concurrent Workstation GC.&lt;/p&gt;
+&lt;p&gt;To use Server GC in non-server-side applications (like WPF, Windows Services, etc.) on multi-core processors, add the following settings to your app.config or web.config:&lt;/p&gt;
+&lt;p&gt;A brief history of GC in .NET
+The genesis of the garbage collector (GC) in .NET dates back to 1990 when Microsoft was developing its version of JavaScript, named JScript. Initially developed by a four-person team, one member, Patrick Dussud, who is recognized as the father of .NET’s garbage collector, developed a Conservative GC within the team. At that time, the CLR did not exist, and Patrick was working on the JVM.&lt;/p&gt;
+&lt;p&gt;Initially, Microsoft aimed to implement its version of the JVM instead of creating something akin to the current .NET runtime. However, once the CLR team was formed, they realized that the JVM imposed certain limitations on them, prompting the creation of their own environment.&lt;/p&gt;
+&lt;p&gt;With this decision, Patrick redeveloped a new GC from scratch, targeting the “best GC possible” concept, using LISP, his language of expertise. He then wrote a transpiler from LISP to C++ to make the code compatible with Microsoft’s runtime. (The birth of the CLR)&lt;/p&gt;
+&lt;p&gt;The current codes for the garbage collector used in .NET can be accessed from this file in Microsoft’s runtime repository. Today, Maoni Stephens, the technical lead of Microsoft’s GC team, who has written and presented many conferences and articles on various aspects of GC implementation, can be followed on her blog.&lt;/p&gt;
+&lt;p&gt;Currently, .NET is equipped with three modes (flavors) of GC, each optimized for different types of applications. Let’s dive into each of these:&lt;/p&gt;
+&lt;p&gt;Server GC
+Optimized for server-side applications like ASP.NET Core and WCF, this variant of GC is designed for environments with high request rates and frequent object allocations and deallocations.&lt;/p&gt;
+&lt;p&gt;Server GC operates with a separate heap and a GC thread for each processor. This means that if you have an eight-core processor, there will be an independent heap and GC thread on each core during garbage collection.&lt;/p&gt;
+&lt;p&gt;This approach ensures the collection process is as swift as possible without additional pauses, preventing the application from “freezing”.&lt;/p&gt;
+&lt;p&gt;Server GC is only executable on multi-core processors. Attempting to run a server-side application in Server GC mode on a single-core processor will automatically result in a fallback to Non-Concurrent Workstation GC.&lt;/p&gt;
+&lt;p&gt;To use Server GC in non-server-side applications (like WPF, Windows Services, etc.) on multi-core processors, add the following settings to your app.config or web.config:&lt;/p&gt;
+&lt;p&gt;A brief history of GC in .NET
+The genesis of the garbage collector (GC) in .NET dates back to 1990 when Microsoft was developing its version of JavaScript, named JScript. Initially developed by a four-person team, one member, Patrick Dussud, who is recognized as the father of .NET’s garbage collector, developed a Conservative GC within the team. At that time, the CLR did not exist, and Patrick was working on the JVM.&lt;/p&gt;
+&lt;p&gt;Initially, Microsoft aimed to implement its version of the JVM instead of creating something akin to the current .NET runtime. However, once the CLR team was formed, they realized that the JVM imposed certain limitations on them, prompting the creation of their own environment.&lt;/p&gt;
+&lt;p&gt;With this decision, Patrick redeveloped a new GC from scratch, targeting the “best GC possible” concept, using LISP, his language of expertise. He then wrote a transpiler from LISP to C++ to make the code compatible with Microsoft’s runtime. (The birth of the CLR)&lt;/p&gt;
+&lt;p&gt;The current codes for the garbage collector used in .NET can be accessed from this file in Microsoft’s runtime repository. Today, Maoni Stephens, the technical lead of Microsoft’s GC team, who has written and presented many conferences and articles on various aspects of GC implementation, can be followed on her blog.&lt;/p&gt;
+&lt;p&gt;Currently, .NET is equipped with three modes (flavors) of GC, each optimized for different types of applications. Let’s dive into each of these:&lt;/p&gt;
+&lt;p&gt;Server GC
+Optimized for server-side applications like ASP.NET Core and WCF, this variant of GC is designed for environments with high request rates and frequent object allocations and deallocations.&lt;/p&gt;
+&lt;p&gt;Server GC operates with a separate heap and a GC thread for each processor. This means that if you have an eight-core processor, there will be an independent heap and GC thread on each core during garbage collection.&lt;/p&gt;
+&lt;p&gt;This approach ensures the collection process is as swift as possible without additional pauses, preventing the application from “freezing”.&lt;/p&gt;
+&lt;p&gt;Server GC is only executable on multi-core processors. Attempting to run a server-side application in Server GC mode on a single-core processor will automatically result in a fallback to Non-Concurrent Workstation GC.&lt;/p&gt;
+&lt;p&gt;To use Server GC in non-server-side applications (like WPF, Windows Services, etc.) on multi-core processors, add the following settings to your app.config or web.config:&lt;/p&gt;
+&lt;p&gt;A brief history of GC in .NET
+The genesis of the garbage collector (GC) in .NET dates back to 1990 when Microsoft was developing its version of JavaScript, named JScript. Initially developed by a four-person team, one member, Patrick Dussud, who is recognized as the father of .NET’s garbage collector, developed a Conservative GC within the team. At that time, the CLR did not exist, and Patrick was working on the JVM.&lt;/p&gt;
+&lt;p&gt;Initially, Microsoft aimed to implement its version of the JVM instead of creating something akin to the current .NET runtime. However, once the CLR team was formed, they realized that the JVM imposed certain limitations on them, prompting the creation of their own environment.&lt;/p&gt;
+&lt;p&gt;With this decision, Patrick redeveloped a new GC from scratch, targeting the “best GC possible” concept, using LISP, his language of expertise. He then wrote a transpiler from LISP to C++ to make the code compatible with Microsoft’s runtime. (The birth of the CLR)&lt;/p&gt;
+&lt;p&gt;The current codes for the garbage collector used in .NET can be accessed from this file in Microsoft’s runtime repository. Today, Maoni Stephens, the technical lead of Microsoft’s GC team, who has written and presented many conferences and articles on various aspects of GC implementation, can be followed on her blog.&lt;/p&gt;
+&lt;p&gt;Currently, .NET is equipped with three modes (flavors) of GC, each optimized for different types of applications. Let’s dive into each of these:&lt;/p&gt;
+&lt;p&gt;Server GC
+Optimized for server-side applications like ASP.NET Core and WCF, this variant of GC is designed for environments with high request rates and frequent object allocations and deallocations.&lt;/p&gt;
+&lt;p&gt;Server GC operates with a separate heap and a GC thread for each processor. This means that if you have an eight-core processor, there will be an independent heap and GC thread on each core during garbage collection.&lt;/p&gt;
+&lt;p&gt;This approach ensures the collection process is as swift as possible without additional pauses, preventing the application from “freezing”.&lt;/p&gt;
+&lt;p&gt;Server GC is only executable on multi-core processors. Attempting to run a server-side application in Server GC mode on a single-core processor will automatically result in a fallback to Non-Concurrent Workstation GC.&lt;/p&gt;
+&lt;p&gt;To use Server GC in non-server-side applications (like WPF, Windows Services, etc.) on multi-core processors, add the following settings to your app.config or web.config:&lt;/p&gt;
+&lt;p&gt;A brief history of GC in .NET
+The genesis of the garbage collector (GC) in .NET dates back to 1990 when Microsoft was developing its version of JavaScript, named JScript. Initially developed by a four-person team, one member, Patrick Dussud, who is recognized as the father of .NET’s garbage collector, developed a Conservative GC within the team. At that time, the CLR did not exist, and Patrick was working on the JVM.&lt;/p&gt;
+&lt;p&gt;Initially, Microsoft aimed to implement its version of the JVM instead of creating something akin to the current .NET runtime. However, once the CLR team was formed, they realized that the JVM imposed certain limitations on them, prompting the creation of their own environment.&lt;/p&gt;
+&lt;p&gt;With this decision, Patrick redeveloped a new GC from scratch, targeting the “best GC possible” concept, using LISP, his language of expertise. He then wrote a transpiler from LISP to C++ to make the code compatible with Microsoft’s runtime. (The birth of the CLR)&lt;/p&gt;
+&lt;p&gt;The current codes for the garbage collector used in .NET can be accessed from this file in Microsoft’s runtime repository. Today, Maoni Stephens, the technical lead of Microsoft’s GC team, who has written and presented many conferences and articles on various aspects of GC implementation, can be followed on her blog.&lt;/p&gt;
+&lt;p&gt;Currently, .NET is equipped with three modes (flavors) of GC, each optimized for different types of applications. Let’s dive into each of these:&lt;/p&gt;
+&lt;p&gt;Server GC
+Optimized for server-side applications like ASP.NET Core and WCF, this variant of GC is designed for environments with high request rates and frequent object allocations and deallocations.&lt;/p&gt;
+&lt;p&gt;Server GC operates with a separate heap and a GC thread for each processor. This means that if you have an eight-core processor, there will be an independent heap and GC thread on each core during garbage collection.&lt;/p&gt;
+&lt;p&gt;This approach ensures the collection process is as swift as possible without additional pauses, preventing the application from “freezing”.&lt;/p&gt;
+&lt;p&gt;Server GC is only executable on multi-core processors. Attempting to run a server-side application in Server GC mode on a single-core processor will automatically result in a fallback to Non-Concurrent Workstation GC.&lt;/p&gt;
+&lt;p&gt;To use Server GC in non-server-side applications (like WPF, Windows Services, etc.) on multi-core processors, add the following settings to your app.config or web.config:&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
